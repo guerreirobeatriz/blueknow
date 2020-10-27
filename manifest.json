@@ -1,9 +1,9 @@
 {
-  "name": "YOURAPPNAME",
+  "name": "blueknow",
   "vendor": "vtex",
   "version": "0.0.1",
-  "title": "CHANGEME",
-  "description": "CHANGEME",
+  "title": "Blueknow first party integration",
+  "description": "",
   "billingOptions": {
     "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
     "support": {
@@ -11,13 +11,9 @@
     },
     "free": true,
     "type": "free",
-    "availableCountries": [
-      "*"
-    ]
+    "availableCountries": ["*"]
   },
   "builders": {
-    "react": "3.x",
-    "store": "0.x",
     "pixel": "0.x",
     "docs": "0.x"
   },
@@ -25,12 +21,12 @@
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "YOUR APP NAME",
+    "title": "Blueknow",
     "type": "object",
     "properties": {
-      "gtmId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
+      "blueknowId": {
+        "title": "BK Number",
+        "description": "Enter the BK Number (BK-XXXX) from your Blueknow account",
         "type": "string"
       }
     }
