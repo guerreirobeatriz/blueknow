@@ -1,6 +1,6 @@
 📢 Use this project, [contribute](https://github.com/vtex-apps/CHANGEME) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
 
-# Blueknow app
+# Blueknow
 
 <!-- DOCS-IGNORE:start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -8,7 +8,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
 
-Blueknow first party app
+Blueknow first party integration app. The [solution](https://www.blueknow.com/en/) works with big data techniques adapted to digital merchandisin in order to provide recovery of lost sales, onsite retargeting, customized recommendations, and more.
 
 ## Configuration
 
@@ -16,24 +16,27 @@ It is possible to install in your store either by using App Store or the VTEX IO
 
 ### Using VTEX App Store
 
-1. Access the **Apps** section in your account's admin page and look for the Blueknow box;
-2. Then, click on the **Install** button;
-3. You'll see a warning message about needing to enter the necessary configurations. Scroll down and type in your **Blueknow ID** in the `Blueknow` field.
+1. Access the **Apps** section in your account's admin page and look for the Blueknow box.
+2. Click on the **Install** button.
+3. Type in your Blueknow ID in the `Blueknow` field.
 4. Click on **Save**.
+
+> ⚠️ *The Blueknow ID should be provided by Blueknow.*
 
 ### Using VTEX IO Toolbelt
 
-1. [Install](https://vtex.io/docs/recipes/development/installing-an-app/) the `vtex.blueknow@1.x` app. You can confirm that the app has now been installed by running `vtex ls` again. 
-2. Access the **Apps** section in your account's admin page and look for the Blueknow box. Once you find it, click on the box.
-3. Fill in the `Blueknow` field with your **Blueknow ID**.
-4. Click on **Save**.
+1. [Install](https://vtex.io/docs/recipes/development/installing-an-app/) the `vtex.blueknow@1.x` app. You can confirm that the app has now been installed by running `vtex ls` in your terminal. 
+2. Access the **Apps** section in your account's admin page and look for the Blueknow box. 
+3. Click on the **Install** button.
+4. Type your Blueknow ID in the `Blueknow` field.
+5. Click on **Save**.
 
-<!-- Remember to also **showcase any necessary disclaimer** related to the app in this section, such as the different behavior it may display during its configuration. -->
+> ⚠️ *The Blueknow ID should be provided by Blueknow.*
 
 <!-- DOCS-IGNORE:start -->
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
