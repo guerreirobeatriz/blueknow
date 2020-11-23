@@ -27,9 +27,8 @@ It is possible to install in your store either by using App Store or the VTEX IO
 
 1. [Install](https://vtex.io/docs/recipes/development/installing-an-app/) the `vtex.blueknow@1.x` app. You can confirm that the app has now been installed by running `vtex ls` in your terminal. 
 2. Access the **Apps** section in your account's admin page and look for the Blueknow box. 
-3. Click on the **Install** button.
-4. Type your Blueknow ID in the `Blueknow` field.
-5. Click on **Save**.
+3. Click on the Blueknow box and type your Blueknow ID in the `Blueknow` field.
+4. Click on **Save**.
 
 > ⚠️ *The Blueknow ID should be provided by Blueknow.*
 
